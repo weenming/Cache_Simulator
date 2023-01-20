@@ -2,7 +2,7 @@
 
 ## Usage
 
-You may run replacement_policy.py with `python replacement_policy.py`. This program will execute simulation under different matrix sizes and replacement policies. 
+Run `src/replacement_policy.py` with `python ./src/replacement_policy.py`. This program will execute simulation under different matrix sizes and replacement policies. 
 
 
 ## Requirements
@@ -12,7 +12,7 @@ Python modules `numpy` and `matplotlib` are required.
 
 ## File Structure
 
-`cache.py` and `mat_mul.py` can be imported.
+`cache.py` and `mat_mul.py` serves as modules to be imported.
 
 In `cache.py` the cache class is implemented which includes replacement policies like LFU, LRU, etc, and the tag bits which is used to determine whether there is a cache hit or miss.
 
